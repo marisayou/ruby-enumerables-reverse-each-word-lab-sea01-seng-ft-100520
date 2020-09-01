@@ -3,6 +3,7 @@ def reverse(word)
   for i in 0...word.length 
     reversed_word += word[word.length-i-1]
   end
+  return reversed_word
 end
 
 def reverse_each_word(str)
